@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PergaCityWeb</title>
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+    body{background:#0a0a0a;color:#fff}
+
+    header{display:flex;justify-content:space-between;align-items:center;padding:20px 50px}
+    .logo{font-weight:700;font-size:24px;letter-spacing:1px}
+    .logo span{color:#4f46e5}
+
+    .btn{background:#4f46e5;padding:12px 22px;border-radius:10px;color:#fff;text-decoration:none;transition:0.3s}
+    .btn:hover{opacity:0.8}
+
+    .hero{height:90vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 20px}
+    .hero h1{font-size:52px;margin-bottom:20px}
+    .hero p{max-width:600px;color:#aaa;margin-bottom:30px;font-size:18px}
+
+    .section{padding:90px 20px;text-align:center}
+
+    .special{
+      max-width:800px;
+      margin:auto;
+      font-size:18px;
+      color:#bbb;
+      line-height:1.7;
+      background:rgba(255,255,255,0.03);
+      padding:40px;
+      border-radius:20px;
+      backdrop-filter:blur(10px);
+      border:1px solid rgba(255,255,255,0.05);
+    }
+
+    .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:25px;margin-top:50px}
+    .card{background:#111;padding:30px;border-radius:18px;transition:0.3s}
+    .card:hover{transform:translateY(-5px)}
+
+    .contact-box{margin-top:40px}
+    .contact-box a{display:flex;align-items:center;justify-content:center;gap:10px;margin:12px 0;color:#aaa;text-decoration:none;font-size:18px}
+    .contact-box a:hover{color:#fff}
+
+    footer{padding:40px;text-align:center;color:#777}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">Perga<span>City</span>Web</div>
+  <a href="#contacto" class="btn">Contactar</a>
+</header>
+
+<section class="hero">
+  <h1>Tu negocio merece una web profesional</h1>
+  <p>Creamos páginas modernas, rápidas y diseñadas para generar confianza y ventas reales.</p>
+  <a href="#contacto" class="btn">Solicitar asesoramiento</a>
+</section>
+
+<section class="section">
+  <h2>¿Por qué te contactamos?</h2>
+  <div class="special">
+    Analizamos negocios con potencial real en redes sociales y seleccionamos algunos para ofrecerles una mejora digital estratégica.
+    <br><br>
+    Vimos tu crecimiento, tu impacto y la calidad de lo que vendés. No todos los negocios llegan a ese nivel.
+    <br><br>
+    Creemos que con una web profesional podés escalar mucho más, automatizar ventas y posicionarte como una marca más grande.
+    <br><br>
+    Por eso decidimos contactarte directamente.
+    <br><br>
+    No trabajamos con todos. Solo con negocios que realmente pueden crecer.
+  </div>
+</section>
+
+<section class="section">
+  <h2>Lo que hacemos</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Diseño Premium</h3>
+      <p>Diseños modernos, minimalistas y adaptados a tu marca.</p>
+    </div>
+    <div class="card">
+      <h3>Estrategia</h3>
+      <p>No es solo una web, es una herramienta para vender más.</p>
+    </div>
+    <div class="card">
+      <h3>Escalabilidad</h3>
+      <p>Preparado para crecer y convertir visitas en clientes.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="section">
+  <h2>Contacto</h2>
+  <p>Si te interesa dar el siguiente paso, hablamos.</p>
+  <div class="contact-box">
+    <a href="#"><i class="bi bi-whatsapp"></i> WhatsApp</a>
+    <a href="#"><i class="bi bi-instagram"></i> Instagram</a>
+    <a href="#"><i class="bi bi-tiktok"></i> TikTok</a>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 PergaCityWeb - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
